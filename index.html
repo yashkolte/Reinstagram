@@ -1,53 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Social</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
     <div id="main">
-        <div class="header">
-            <div class="logo">Instagram</div>
-            <div class="right">
-                <i class="ri-add-box-line"></i>
-                <i class="ri-chat-smile-2-line"></i>
-            </div>
+      <div class="navbar">
+        <div class="logo">
+          <img src="./assets/instagram-wordmark.svg" alt="" />
         </div>
-        <div class="container">
-            <div id="fs">
+        <div class="nav-links">
+          <div class="link">
+            <i class="ri-home-4-line"></i><a href="#">Home</a>
+          </div>
+          <div class="link">
+            <i class="ri-search-line"></i><a href="#">Search</a>
+          </div>
+          <div class="link">
+            <i class="ri-compass-3-line"></i><a href="#">Explore</a>
+          </div>
+          <div class="link">
+            <i class="ri-instagram-line"></i><a href="#">Reels</a>
+          </div>
+          <div class="link">
+            <i class="ri-chat-smile-2-line"></i><a href="#">Message</a>
+          </div>
+          <div class="link">
+            <i class="ri-heart-line"></i><a href="#">Notification</a>
+          </div>
+          <div class="link">
+            <i class="ri-add-box-line"></i><a href="#">Create</a>
+          </div>
+          <div class="link">
+            <img src="./assets/1671371016423.jpg" alt=""><a href="#">Profile</a>
+          </div>
+        </div>
+        <div class="more"><i class="ri-menu-line"></i><a href="#">More</a></div>
+      </div>
+      <div class="container">
+        <div id="fs">
+          <i class="ri-close-line"></i>
+          <div class="center">
+            <div id="progress">
                 <div id="progressmaker"></div>
-                <img src="" alt="">
-            </div>
-            <div id="stories">
-                
-            </div>
-            <div id="post">
-                    <div class="post-header">
-                        <div class="post-header-left">
-                            <img src="" alt="">
-                            <div class="post-header-left-text">
-                                
-                            </div>
-                        </div>
-                        <div class="post-header-right">
-                            <i class="ri-more-fill"></i>
-                        </div>
-                    </div>
-                    <div class="post-image">
-                        <img src="" alt="">
-
 
             </div>
-            </div>
-            </div>
+              <img src="./assets/1671371016423.jpg" alt="" />
+              <div class="fs-bottom">
+                <input type="text" placeholder="     Reply...">
+                <div class="fs-bottom-right">
+                    <i class="ri-heart-line"></i>
+                    <i class="ri-send-plane-fill"></i>
+
+                </div>
+              </div>
+
+          </div>
         </div>
+        <div id="stories"></div>
+        <div id="posts"></div>
     </div>
-    
+      <div class="developer">
+        <img src="./assets/1671371016423.jpg" alt="" />
+        <div class="dev-info">
+          <h3>Developer</h3>
+          <p>Yash Kolte</p>
+        </div>
+      </div>
+    </div>
 
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
